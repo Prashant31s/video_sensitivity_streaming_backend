@@ -49,7 +49,6 @@ FFMPEG_PATH=ffmpeg
 FFPROBE_PATH=ffprobe
 ```
 
-You can also use [`.env.example`](/Users/prashant/projects/video_processing/backend/.env.example) as a starting point.
 
 ## Install
 
