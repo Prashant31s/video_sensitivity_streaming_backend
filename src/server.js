@@ -13,7 +13,7 @@ async function bootstrap() {
   const server = http.createServer(app);
   const io = new Server(server, {
     cors: {
-      origin: env.CLIENT_ORIGIN,
+      origin: process.env.CLIENT_ORIGIN,
       credentials: true
     }
   });
